@@ -14,10 +14,6 @@ const Schema = new mongoose.Schema(
             type: Number,
             default: 0,
         },
-        postedTime: {
-            type: Date,
-            default: Date.now,
-        }
     },
     {timestamps: true}
 );
